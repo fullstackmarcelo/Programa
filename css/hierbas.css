@@ -21,6 +21,23 @@ header h2 {
     left: 20px;
 }
 
+nav{
+    background-color: bisque;
+    margin-bottom: 20px;
+}
+
+nav div ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav div ul li{
+    flex-grow: 1;
+}
+
+
 .holder{
     max-width: 960px;
     margin: 0 auto;
